@@ -9,6 +9,7 @@ while target!=choice:
         count+=1
         print(f"Correct! you guesses it in {count} attempts")
         target+=1
+        break
 
     elif n>choice:
         count+=1
@@ -21,3 +22,4 @@ while target!=choice:
         n=int(input())
 
    
+
